@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280491707111",
+    "project_id": "prescrip-7009e",
+    "storage_bucket": "prescrip-7009e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280491707111:android:0c5d2037fa3da5fff27042",
+        "android_client_info": {
+          "package_name": "com.example.prescrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280491707111-ktsu7p36gq8f01ntteg5p1jjrsanu50a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnmWXXTw90OpxfKb-U4XN6PKOWNtik2p0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280491707111-ktsu7p36gq8f01ntteg5p1jjrsanu50a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
