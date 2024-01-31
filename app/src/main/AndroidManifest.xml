@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.prescrip">
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Prescrip" >
+
         <activity
             android:name=".takingprescriptionimages"
             android:exported="false" />
@@ -24,10 +24,10 @@
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.prescrip.fileprovider"
@@ -38,21 +38,18 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-
     </application>
+
     <uses-feature android:name="android.hardware.camera"
         android:required="true" />
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
-
     <uses-permission android:name="android.permission.CAMERA"/>
+
     <queries>
         <package android:name="com.example.store" />
         <package android:name="com.example.services" />
     </queries>
-
-
-
-
 </manifest>

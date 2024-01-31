@@ -5,8 +5,8 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1777169189453125" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2085" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22319946289062498" />
-        <entry key="app/src/main/res/layout/activity_savedprescription.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29602813720703136" />
+        <entry key="app/src/main/res/layout/activity_savedprescription.xml" value="0.15278778076171876" />
         <entry key="app/src/main/res/layout/activity_takingprescriptionimages.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_takingprescriptionimages2.xml" value="0.2627105712890625" />
         <entry key="app/src/main/res/xml/file_paths.xml" value="0.2953125" />

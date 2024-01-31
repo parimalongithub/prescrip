@@ -72,17 +72,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, savedprescription.class);
                 startActivity(intent);
 
-
-
-
-
             }
         });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v1) {
-               // requestCameraPermission();
+                requestCameraPermission();
 
             }
         });
@@ -96,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
           //  startCameraCapture();
         }
     }
+
     private void requestCameraPermission() {
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, CAMERA_PERMISSION_REQUEST_CODE);
     }
@@ -118,10 +115,16 @@ public class MainActivity extends AppCompatActivity {
         // Create a file to save the captured image
         File imageFile = createImageFile();
         if (imageFile != null) {
+            // Get content URI using FileProvider
+            Uri photoURI = FileProvider.getUriForFile(this, "com.example.prescrip.fileprovider", imageFile);
+
             // Start camera capture intent
             Intent captureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            captureIntent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(imageFile));
+            captureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
             startActivityForResult(captureIntent, CAMERA_CAPTURE_REQUEST_CODE);
+
+            // Check for camera app availability
+            PackageManager packageManager = getPackageManager();
         } else {
             Toast.makeText(this, "Failed to create image file", Toast.LENGTH_SHORT).show();
         }
