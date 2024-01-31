@@ -15,7 +15,7 @@ Prescription Manager is an Android application that simplifies the process of sa
 
 ## Project Screenshots
 
-![Add Prescription](/screenshots/add_prescription.png)
+![Add Prescription](/screenshots/add1.png)
 *Caption: Capturing prescription details using the camera.*
 
 ![save Prescription](/screenshots/view_prescription.png)
