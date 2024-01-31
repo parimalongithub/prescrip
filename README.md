@@ -14,10 +14,11 @@ Prescription Manager is an Android application that simplifies the process of sa
   - Search for specific prescriptions to find information quickly.
 
 ## Project Screenshots
+![Add Prescription](/screenshots/add2.png)
+
 
 ![Add Prescription](/screenshots/add1.png)
 
-![Add Prescription](/screenshots/add2.png)
 
 ![save Prescription](/screenshots/view.png)
 
