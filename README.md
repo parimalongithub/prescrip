@@ -20,7 +20,6 @@ Prescription Manager is an Android application that simplifies the process of sa
 ![Add Prescription](/screenshots/add2.png)
 
 ![save Prescription](/screenshots/view.png)
-*Caption: Viewing saved prescriptions in the app.*
 
 ## Getting Started
 
@@ -43,9 +42,3 @@ Prescription Manager is an Android application that simplifies the process of sa
 3. **Search for Prescriptions:**
    - Utilize the search bar to find specific prescriptions quickly.
 
-4. **Sync Across Devices (Optional):**
-   - Create an account to sync your prescription data across multiple devices.
-
-## Contact
-
-For support, please contact [Your Name] at [your.email@example.com].
