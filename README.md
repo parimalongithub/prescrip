@@ -39,7 +39,3 @@ Prescription Manager is an Android application that simplifies the process of sa
 2. **Access Prescriptions:**
    - Navigate to the "Prescriptions" tab to view a list of saved prescriptions.
    - Tap on a prescription to view detailed information.
-
-3. **Search for Prescriptions:**
-   - Utilize the search bar to find specific prescriptions quickly.
-
